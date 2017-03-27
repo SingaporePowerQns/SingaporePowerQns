@@ -9,4 +9,5 @@ Using terminal:
 > /src $ javac LetterCombination.java && java LetterCombination
 4. To find all possible word combinations from wordsRTF.txt, FindWordsFromList.java:
 > /src $ javac FindWordsFromList.java && java FindWordsFromList  
+<br>
 Note: All programs will prompt for input.
