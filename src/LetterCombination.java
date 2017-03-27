@@ -5,7 +5,7 @@ public class LetterCombination {
 
 	public static void main(String[] args) throws Exception {
 		sc = new Scanner(System.in);
-		System.out.print("Input: ");
+		System.out.print("Input a number: ");
 		String number = sc.nextLine().trim();
 
 		if(!number.matches("\\d+") || number.length() <= 0 || number.contains("0") || number.contains("1")) {

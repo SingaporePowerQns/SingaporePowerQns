@@ -1,7 +1,3 @@
-/*
- * javac KeyPress.java && java KeyPress
- */
-
 import java.util.*;
 
 public class KeyPress {
@@ -9,7 +5,7 @@ public class KeyPress {
 
 	public static void main(String[] args) throws Exception {
 		sc = new Scanner(System.in);
-		System.out.print("Input: ");
+		System.out.print("Input a word: ");
 		String word = sc.nextLine().trim();
 
 		if(!word.matches("^[A-z]+$") || word.length() <= 0) {

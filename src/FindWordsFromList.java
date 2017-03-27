@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileReader;
 import java.util.*;
-//948437296
 
 public class FindWordsFromList {
 	private static Scanner sc;
@@ -9,7 +8,7 @@ public class FindWordsFromList {
 
 	public static void main(String[] args) throws Exception {
 		sc = new Scanner(System.in);
-		System.out.print("Input: ");
+		System.out.print("Input a number: ");
 		String number = sc.nextLine().trim();
 
 		if(!number.matches("\\d+") || number.length() <= 0 || number.contains("0") || number.contains("1")) {
